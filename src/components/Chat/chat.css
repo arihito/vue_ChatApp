@@ -38,13 +38,46 @@ a:hover {
 .channel-name {
   grid-area: 1 / 2;
 }
+.channel-name h2 {
+  padding-bottom: 16px;
+  border-bottom: 1px dotted #333;
+}
 
 .messages {
   grid-area: 2 / 2;
   height: 300px;
   overflow: scroll;
+  color: #42b883;
 }
 
-.from {
+.form {
   grid-area: 3 / 2;
+}
+
+.form input {
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.form input[type="text"] {
+  width: 100%;
+  font-size: 2rem;
+  color: #6c7ea0;
+  background-color: #222;
+  border: 1px solid #333;
+  box-shadow: 0 0 10px #111 inset;
+}
+.form input[type="button"] {
+  width: 50%;
+  font-size: 1.5rem;
+  color: #42b883;
+  border: 1px solid #2f2f2f;
+  background: linear-gradient(#292929, #222);
+  box-shadow: 0 0 10px #111;
+  transition: all .5s ease-in-out;
+}
+.form input[type="button"]:hover {
+  box-shadow: 0 0 10px #444;
+  border: 1px solid #555;
 }
