@@ -2,7 +2,28 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
+a {
+  display: block;
+  color: #6c7ea0;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+  padding: 15px 0;
+  border-bottom: 1px dotted #333;
+  background: linear-gradient(90deg,#1f1f1f, #222);
+}
+a::after {
+  content: ">";
+  margin-left: 5px;
+  font-size: 01px;
+  font-weight: bold;
+  vertical-align: baseline;
+  color: #555;
+}
+a:hover {
+  color: rgb(123, 184, 123);
+  background: linear-gradient(90deg,#161616, #222);
+  font-weight: bold;
+}
 .view {
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -10,7 +31,7 @@ ul {
 }
 
 .chanel {
-  grid-row: 1 / span 3;
+  grid-row: 1 / span 3;/*３つ先まで*/
   grid-column: 1 / 2;
 }
 

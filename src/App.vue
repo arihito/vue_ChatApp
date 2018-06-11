@@ -15,6 +15,7 @@ html,body {
   margin: 0;
   padding: 0;
   font-size: 1.4rem;
+  background-color: #222;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -22,7 +23,6 @@ html,body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #6c7ea0;
-  background-color: #222;
 }
   .sample {
     font-weight: var(--sample-weight);
