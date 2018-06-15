@@ -24,17 +24,17 @@ html,body {
   text-align: center;
   color: #6c7ea0;
 }
-  .sample {
-    font-weight: var(--sample-weight);
-    font-size: 2rem;
-    overflow: hidden;
-    padding: 10px;
-    text-align: left;
-  }
-    img {
-      width: 30px;
-      float: left;
-      margin-right: 10px;
-    }
+.sample {
+  font-weight: var(--sample-weight);
+  font-size: 2rem;
+  overflow: hidden;
+  padding: 10px;
+  text-align: left;
+}
+img {
+  width: 30px;
+  float: left;
+  margin-right: 10px;
+}
 
 </style>

@@ -6,9 +6,10 @@
   .channel-name 
     h2 {{ $route.params.cname }}
   .messages
-    message-list(:messages='messages')
+    //- message-list(:messages='messages')
     ul
       li(v-for="(mes) in messages")
+        img(src="./assets/avatar.png" width="50")
         .message {{ mes.body }}
         .date {{ mes.date }}
         .name {{ mes.user.name }}
